@@ -1,0 +1,8 @@
+spring:
+  datasource:
+#    docker服务的名称
+    url: jdbc:mysql://mysql-master/db_smart?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: 123456
+logging:
+  config: logback-spring.xml
